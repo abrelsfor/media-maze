@@ -23,9 +23,8 @@ const MAZE_CONFIG = {
   // ─── INTRO SCREEN ───────────────────────────────────────────────────────────
   intro: {
     title: "Enter the Maze",
-    body: `You are about to walk through a labyrinth — not one made of stone, but of images and ideas. 
-    Each turn is a choice. Some paths lead deeper. Some end. 
-    There is no exit. Only thresholds.<br><br>
+    body: `You are about to walk through a labyrinth. 
+    Each turn is a choice.<br><br>
     <em>Choose with intention.</em>`,
     enterLabel: "Enter"
   },
@@ -82,9 +81,8 @@ const MAZE_CONFIG = {
 
     "branch-a-right": {
       type: "deadend",
-      text: `The paper is thin but its weight is enormous. <br><br>
-      Who signed? Who was absent from the table?<br><br>
-      <em>Land is not property. Land is relation.</em>`
+      text: `Who signed? Who was absent from the table?<br><br>
+      <em>Land is relation.</em>`
     },
 
     // ── BRANCH B ────────────────────────────────────────────────────────────
@@ -129,7 +127,7 @@ const MAZE_CONFIG = {
     "deadend-reciprocity": {
       type: "deadend",
       text: `This is what Black to the Land knows. What Indigenous land stewards have always known.<br><br>
-      Land is not a commodity to be extracted — it is a relationship to be tended.<br><br>
+      Land is a relationship to be tended.<br><br>
       <em>You have reached a threshold. Rest here a moment before you return.</em>`
     },
 
@@ -143,18 +141,12 @@ const MAZE_CONFIG = {
 
     "deadend-resistance": {
       type: "deadend",
-      text: `Resistance has always been here.<br><br>
-      In the mutual aid network. In the community land trust. In the Land Back movement 
-      that insists sovereignty was never ceded — only stolen.<br><br>
-      <em>The maze has no exit because the struggle has no finish line.</em>`
+      text: `Resistance has always been here.</em>`
     },
 
     "deadend-erasure": {
       type: "deadend",
-      text: `Absence is not emptiness.<br><br>
-      The empty lot remembers the family that was displaced, the business that was shuttered, 
-      the block that was redlined, the land that was taken.<br><br>
-      <em>We are here. We have always been here.</em>`
+      text: `We are here. We have always been here.</em>`
     }
 
   }
