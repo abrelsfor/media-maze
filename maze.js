@@ -37,9 +37,11 @@ const Maze = (() => {
     Object.keys(screens).forEach(k => {
       screens[k].classList.remove('active');
       screens[k].setAttribute('aria-hidden', 'true');
+      screens[k].style.zIndex = '0';
     });
     screens[name].classList.add('active');
     screens[name].setAttribute('aria-hidden', 'false');
+    screens[name].style.zIndex = '1';
     screens[name].scrollTop = 0;
   }
 
